@@ -1,0 +1,99 @@
+.mainDiv{
+    display: flex;
+    flex-flow: column;
+    width: 30%;
+    height: 100vh;
+    background: #2C303C;
+}
+.myName{
+    text-align: center;
+    color: #fff;
+}
+.socialMedia{
+    display: flex;
+    flex-flow: column;
+}
+
+
+.socialMedia a {
+    color: white;
+}
+
+.socialMedia a:hover {
+    color: #06c;
+    text-decoration: #06c;
+}
+
+.facebook,
+.instagram,
+.telegram,
+.whatsapp,
+.email,
+.phone {
+    transition: .3s;
+
+}
+
+.facebook {
+    fill: #4267B2;
+
+}
+
+.whatsapp {
+    fill: #25D366;
+}
+
+.instagram {
+    fill: #e4405f;
+}
+
+.telegram {
+    fill: #5682A3;
+}
+
+.email {
+    fill: #005B8D;
+}
+
+.phone {
+    fill: #148C14;
+}
+
+.html5{
+    fill: #E44D26;
+}
+
+.css3{
+    fill:#1B73BA ;
+}
+.svg{
+    fill: #fff;
+}
+
+
+.contacts {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: 0 0 12px 0;
+    padding: 10px 0 10px 0;
+    transition: .3s;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    position: relative;
+}.contacts:hover,
+ .facebook:hover,
+ .instagram:hover,
+ .telegram:hover,
+ .whatsapp:hover,
+ .email:hover,
+ .phone:hover {
+     border-color: #06c;
+ }
+.contacts div{
+    padding-left: 10px;
+}
+.contacts h6,.skills h6 {
+    margin: 0 0 0 10px;
+}
