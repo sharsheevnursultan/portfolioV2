@@ -3,14 +3,14 @@ body {
 }
 
 .mainContacts {
-    margin-top: 65px;
+    margin: 50px;
     display: flex;
     flex-flow: column;
     align-items: center;
 }
 
 .myName {
-    margin:  20px ;
+    margin: 20px;
     background: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
     font-family: 'Montserrat ExtraBold', sans-serif;
     text-align: center;
@@ -116,33 +116,37 @@ body {
     font-size: 12px;
 
 }
-.myAvaDiv{
 
+.myAvaDiv {
+    width: 100%;
+    display: flex;
 }
-.myAva{
+
+.myAva {
     padding: 10px;
-    width: 23vw;
-    border-radius: 5px;
+    margin: auto;
+    width: 300px;
+    border-radius: 15px;
 }
-.heightForCentering{
+
+.heightForCentering {
     height: 100vh;
     display: flex;
 }
-.card-contacts{
+
+.card-contacts {
     margin: auto;
-    display: flex;
-    vertical-align: middle;
+    display: block;
+    flex-wrap: wrap;
     border-radius: 5px;
-    -webkit-box-shadow: 0 0 11px 0 rgba(0,0,0,0.26);
-    -moz-box-shadow: 0 0 11px 0 rgba(0,0,0,0.26);
-    box-shadow: 0 0 11px 0 rgba(0,0,0,0.26);
+    -webkit-box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.26);
+    box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.26);
 
 }
 
 
-
-.contactsText{
-    width: 100%;
+.contactsText {
     display: block;
     text-align: center;
     align-content: center;
