@@ -1,43 +1,37 @@
 body {
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
-    background-blend-mode: color;
-
 
 }
 
 .mainDiv {
-    margin: 10px;
-    padding: 10px;
-    display: inline-block;
+    display: flex;
     flex-flow: column;
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    border-radius: 10px;
 
 }
 
 .myName {
-
+    margin: 10px 0 20px 0;
     background: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
     font-family: 'Montserrat ExtraBold', sans-serif;
     text-align: center;
-    color: #fff;
+
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
 
 .socialMedia {
     display: flex;
-    flex-flow: column;
+    /*flex-flow: column;*/
+    flex-wrap: wrap;
 }
 
 
 .socialMedia a {
-    color: white;
+
 
 }
 
 .socialMedia a:hover {
-    color: #fff3cd;
+
 }
 
 .facebook,
@@ -95,29 +89,30 @@ body {
     align-items: center;
     align-content: center;
     margin: 0 0 12px 0;
-    padding: 10px 0 10px 0;
+    padding: 0 0 10px 0;
     transition: .3s;
-    border: 1px solid #fff;
-    border-radius: 5px;
     position: relative;
 }
 
 .contacts:hover {
-    border-radius: 5px;
-    background: transparent;
-    border: 4px solid #ff5900;
-    padding: 7px 0 7px 0;
+
+
 }
 
 .contacts div {
     padding-left: 10px;
+
 }
 
 .contacts h6, .skills h6 {
-    margin: 0 0 0 10px;
+    margin: 0 0 0 10px;display: none;
 }
 
 .contacts:hover h6 {
 
 
+}
+
+.resumeLink{
+    font-size: 12px;
 }
