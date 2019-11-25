@@ -119,20 +119,17 @@ body {
 
 .myAvaDiv {
     width: 100%;
+
     display: flex;
 }
 
 .myAva {
     padding: 10px;
     margin: auto;
-    width: 300px;
+    width: 100%;
     border-radius: 15px;
 }
 
-.heightForCentering {
-    height: 100vh;
-    display: flex;
-}
 
 .card-contacts {
     margin: auto;
