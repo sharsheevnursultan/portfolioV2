@@ -5,7 +5,7 @@ body {
 .mainDiv {
     display: flex;
     flex-flow: column;
-
+    align-items: center;
 }
 
 .myName {
@@ -105,7 +105,8 @@ body {
 }
 
 .contacts h6, .skills h6 {
-    margin: 0 0 0 10px;display: none;
+    margin: 0 0 0 10px;
+    display: none;
 }
 
 .contacts:hover h6 {
@@ -113,6 +114,7 @@ body {
 
 }
 
-.resumeLink{
+.resumeLink {
     font-size: 12px;
+
 }
