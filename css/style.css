@@ -2,28 +2,26 @@ body {
 
 }
 
-.mainDiv {
+.mainContacts {
+    margin-top: 100px;
     display: flex;
     flex-flow: column;
     align-items: center;
 }
 
 .myName {
-    margin: 10px 0 20px 0;
+    margin:  20px ;
     background: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
     font-family: 'Montserrat ExtraBold', sans-serif;
     text-align: center;
-
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
 
 .socialMedia {
     display: flex;
-    /*flex-flow: column;*/
     flex-wrap: wrap;
 }
-
 
 .socialMedia a {
 
@@ -117,4 +115,29 @@ body {
 .resumeLink {
     font-size: 12px;
 
+}
+.myAvaDiv{
+
+}
+.myAva{
+    width: 270px;
+    border-radius: 5px;
+}
+
+.card-contacts{
+    display: flex;
+    margin-top: 15%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.26);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.26);
+    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.26);
+
+}
+
+.contactsText{
+    width: 100%;
+    display: block;
+    text-align: center;
+    align-content: center;
+    align-items: center;
 }
