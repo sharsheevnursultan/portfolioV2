@@ -120,19 +120,26 @@ body {
 
 }
 .myAva{
-    width: 270px;
+    padding: 10px;
+    width: 23vw;
     border-radius: 5px;
 }
-
-.card-contacts{
+.heightForCentering{
+    height: 100vh;
     display: flex;
-    margin-top: 15%;
+}
+.card-contacts{
+    margin: auto;
+    display: flex;
+    vertical-align: middle;
     border-radius: 5px;
-    -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.26);
-    -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.26);
-    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.26);
+    -webkit-box-shadow: 0 0 11px 0 rgba(0,0,0,0.26);
+    -moz-box-shadow: 0 0 11px 0 rgba(0,0,0,0.26);
+    box-shadow: 0 0 11px 0 rgba(0,0,0,0.26);
 
 }
+
+
 
 .contactsText{
     width: 100%;
