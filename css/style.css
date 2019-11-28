@@ -1,35 +1,44 @@
 body {
-
+    background: #343a40;
 }
 
-.mainContacts {
-    margin: 50px;
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.myNameDiv {
     display: flex;
+    background: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+    font-family: 'Montserrat ExtraBold', sans-serif;
+    text-align: left;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
     flex-flow: column;
-    align-items: center;
 }
 
 .myName {
-    margin: 20px;
-    background: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
-    font-family: 'Montserrat ExtraBold', sans-serif;
-    text-align: center;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    line-height: 1;
+    margin-left: -2px;
+    font-size: 50px;
+}
+
+.mySpecialisation {
+    margin-top: 15px;
+    font-size: 20px;
 }
 
 .socialMedia {
     display: flex;
     flex-wrap: wrap;
+    margin-left: -9px;
 }
 
-.socialMedia a {
-
-
-}
-
-.socialMedia a:hover {
-
+.contacts:hover svg{
+    fill: white;
+    background: rgba(0,0,0,0.3);
+    border-radius: 5px;
+    padding: 2px;
 }
 
 .facebook,
@@ -79,7 +88,6 @@ body {
     fill: #fff;
 }
 
-
 .contacts {
     font-family: 'Montserrat', sans-serif;
     overflow: hidden;
@@ -92,11 +100,6 @@ body {
     position: relative;
 }
 
-.contacts:hover {
-
-
-}
-
 .contacts div {
     padding-left: 10px;
 
@@ -107,39 +110,31 @@ body {
     display: none;
 }
 
-.contacts:hover h6 {
-
-
-}
 
 .resumeLink {
     font-size: 12px;
-
+    margin-top: 15px;
 }
 
-.myAvaDiv {
-    width: 100%;
+.resumeLink a {
+    color: white;
+}
 
-    display: flex;
+.h-100vh {
+    height: 100vh;
 }
 
 .myAva {
-    padding: 10px;
-    margin: auto;
-    width: 100%;
-    border-radius: 15px;
+    width: 300px;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.26);
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.26);
+    border-radius: 5px;
 }
-
 
 .card-contacts {
     margin: auto;
-    display: block;
-    flex-wrap: wrap;
-    border-radius: 5px;
-    -webkit-box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.26);
-    -moz-box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.26);
-    box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.26);
-
+    display: flex;
 }
 
 
@@ -148,4 +143,8 @@ body {
     text-align: center;
     align-content: center;
     align-items: center;
+}
+
+.paddingLeftContacts {
+    padding-left: 20px;
 }
