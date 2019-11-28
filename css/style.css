@@ -1,5 +1,6 @@
 body {
     background: #343a40;
+    scroll-behavior: smooth;
 }
 
 * {
@@ -148,4 +149,21 @@ body {
 
 .paddingLeftContacts {
     padding-left: 20px;
+}
+.skills{
+    margin: auto;
+}
+
+.skillsCard{
+    width: 100%;
+    border: 1px solid transparent;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.26);
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.26);
+    border-radius: 5px;
+}
+.mySkillsText{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 50px;
+    color: #fff;
 }
