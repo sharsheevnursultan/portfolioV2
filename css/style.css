@@ -48,7 +48,8 @@ body {
 .telegram,
 .whatsapp,
 .email,
-.phone {
+.phone,
+.github {
     transition: .3s;
 
 }
@@ -248,18 +249,30 @@ body {
 }
 
 .portfolio {
+    padding: 5em 0;
     margin: auto;
     width: 100%;
 }
 
 .portfolioImage {
     width: 100%;
-    height: 230px;
+    height: 200px;
+    transition: .3s;
 }
 
-.portfolioItemText{
-    color: white;
+.portfolioItem:hover .portfolioImage {
+    margin-top: -5px;
+    -webkit-box-shadow: 0 15px 23px 6px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 15px 23px 6px rgba(0,0,0,0.6);
+    box-shadow: 0 15px 23px 6px rgba(0,0,0,0.6);
+
 }
-.portfolioItemText a{
+
+.portfolioItemText {
+    color: white;
+    height: 3em;
+}
+
+.portfolioItemText a {
     color: white;
 }
