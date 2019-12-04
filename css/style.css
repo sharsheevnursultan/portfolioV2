@@ -259,13 +259,19 @@ body {
     height: 200px;
     transition: .3s;
 }
+.portfolioItem{
+
+}
 
 .portfolioItem:hover .portfolioImage {
-    margin-top: -5px;
-    -webkit-box-shadow: 0 15px 23px 6px rgba(0,0,0,0.6);
-    -moz-box-shadow: 0 15px 23px 6px rgba(0,0,0,0.6);
-    box-shadow: 0 15px 23px 6px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 15px 23px 6px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 15px 23px 6px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 15px 23px 6px rgba(0, 0, 0, 0.6);
 
+}
+
+.portfolioItem:hover a {
+    text-decoration: none;
 }
 
 .portfolioItemText {
