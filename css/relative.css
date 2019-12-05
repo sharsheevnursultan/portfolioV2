@@ -117,5 +117,11 @@
     .portfolio {
         padding: 3em 0;
     }
+    .portfolioImage{
+        margin: 0;
+    }
+    .portfolioItemText{
+        height: 4em;
+    }
 }
 
