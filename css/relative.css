@@ -21,7 +21,79 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .card-contacts {
+        display: flex;
+    }
 
+
+    .myCardDiv {
+        display: inline-block;
+    }
+
+    .myAva {
+        margin-top: 3rem;
+    }
+
+
+
+
+
+    .myName {
+        font-size: 40px;
+    }
+
+    .mySpecialisation {
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    .card-contacts-main {
+
+        height: 100%;
+    }
+
+    .skillsCard {
+        margin-top: 3rem;
+        text-align: center;
+        position: unset;
+        padding: 0;
+        border: 0;
+        box-shadow: none;
+    }
+
+    .skillsCard:before {
+        display: none;
+    }
+
+    .mySkillsText {
+        font-size: 25px;
+    }
+
+    .skillName {
+        font-size: 12px;
+    }
+
+    .skillsExplanation {
+        text-align: start;
+    }
+
+    .skillsExplanation p {
+        line-height: normal;
+        font-size: 12px;
+
+    }
+
+    .portfolio {
+        padding: 3em 0;
+    }
+
+    .portfolioImage {
+        margin: 0;
+    }
+
+    .portfolioItemText {
+        height: 4em;
+    }
 
     /*
       ##Device = Tablets, Ipads (landscape)
@@ -30,7 +102,92 @@
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
+    .card-contacts {
+        display: block;
+    }
 
+    .paddingLeftContacts {
+        padding-left: 0;
+        margin-top: 3rem;
+    }
+
+    .myCardDiv {
+        display: flex;
+    }
+
+    .myAva {
+        margin-top: 3rem;
+    }
+
+    .socialMedia {
+
+        margin-left: 0;
+    }
+
+    .coloredText {
+        text-align: center;
+    }
+
+    .myName {
+        font-size: 40px;
+    }
+
+    .mySpecialisation {
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    .resumeLink {
+        text-align: center;
+    }
+
+    .card-contacts-main {
+
+        height: 100%;
+    }
+
+    .skillsCard {
+        margin-top: 3rem;
+        text-align: center;
+        position: unset;
+        padding: 0;
+        border: 0;
+        box-shadow: none;
+    }
+
+    .skillsCard:before {
+        display: none;
+    }
+
+    .mySkillsText {
+        font-size: 25px;
+    }
+
+    .skillName {
+        font-size: 12px;
+    }
+
+    .skillsExplanation {
+        text-align: start;
+    }
+
+    .skillsExplanation p {
+        line-height: normal;
+        font-size: 12px;
+
+    }
+
+    .portfolio {
+        padding: 3em 0;
+    }
+
+    .portfolioImage {
+        margin: 0;
+    }
+
+    .portfolioItemText {
+        height: 4em;
+    }
 
     /*
       ##Device = Most of the Smartphones Mobiles (Portrait)
@@ -117,10 +274,12 @@
     .portfolio {
         padding: 3em 0;
     }
-    .portfolioImage{
+
+    .portfolioImage {
         margin: 0;
     }
-    .portfolioItemText{
+
+    .portfolioItemText {
         height: 4em;
     }
 }
