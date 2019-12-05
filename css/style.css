@@ -9,6 +9,10 @@ body {
     margin: 0;
 }
 
+.myCardDiv {
+    display: inline-block;
+}
+
 .coloredText {
     display: flex;
     background: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
@@ -150,7 +154,14 @@ body {
     align-items: center;
 }
 
+.card-contacts-main {
+    display: flex;
+    height: 100vh;
+}
+
 .paddingLeftContacts {
+    display: inline-block;
+    margin: auto;
     padding-left: 20px;
 }
 
@@ -291,6 +302,6 @@ body {
     color: white;
 }
 
-.paddingBottom{
+.paddingBottom {
     padding-bottom: 2rem;
 }

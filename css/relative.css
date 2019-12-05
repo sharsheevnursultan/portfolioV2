@@ -1,0 +1,76 @@
+@media (min-width: 1281px) and (max-width: 2040px) {
+
+    /*
+      ##Device = Laptops, Desktops
+      ##Screen = B/w 1025px to 1280px
+    */
+}
+
+@media (min-width: 1100px) and (max-width: 1280px) {
+
+
+    /*
+      ##Device = Tablets, Ipads (portrait)
+      ##Screen = B/w 768px to 1024px
+    */
+}
+
+@media (min-width: 992px) and (max-width: 1100px) {
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    /*
+      ##Device = Tablets, Ipads (landscape)
+      ##Screen = B/w 768px to 1024px
+    */
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+
+    /*
+      ##Device = Most of the Smartphones Mobiles (Portrait)
+      ##Screen = B/w 320px to 479px
+    */
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .card-contacts {
+        display: block;
+    }
+
+    .paddingLeftContacts {
+        padding-left: 0;
+        margin-top: 3rem;
+    }
+
+    .myCardDiv {
+        display: flex;
+    }
+
+    .myAva {
+        margin-top: 3rem;
+    }
+    .socialMedia {
+
+         margin-left: 0;
+    }
+    .coloredText {
+        text-align: center;
+    }
+    .myName {
+        font-size: 40px;
+    }
+    .mySpecialisation {
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    .resumeLink {
+        text-align: center;
+    }
+}
+
