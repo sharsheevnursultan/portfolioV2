@@ -55,22 +55,67 @@
     .myAva {
         margin-top: 3rem;
     }
+
     .socialMedia {
 
-         margin-left: 0;
+        margin-left: 0;
     }
+
     .coloredText {
         text-align: center;
     }
+
     .myName {
         font-size: 40px;
     }
+
     .mySpecialisation {
         margin-top: 20px;
         font-size: 15px;
     }
+
     .resumeLink {
         text-align: center;
+    }
+
+    .card-contacts-main {
+
+        height: 100%;
+    }
+
+    .skillsCard {
+        margin-top: 3rem;
+        text-align: center;
+        position: unset;
+        padding: 0;
+        border: 0;
+        box-shadow: none;
+    }
+
+    .skillsCard:before {
+        display: none;
+    }
+
+    .mySkillsText {
+        font-size: 25px;
+    }
+
+    .skillName {
+        font-size: 12px;
+    }
+
+    .skillsExplanation {
+        text-align: start;
+    }
+
+    .skillsExplanation p {
+        line-height: normal;
+        font-size: 12px;
+
+    }
+
+    .portfolio {
+        padding: 3em 0;
     }
 }
 
