@@ -1,13 +1,41 @@
-body {
-    background: #343a40;
-    scroll-behavior: smooth;
-    font-family: Montserrat, sans-serif;
-}
-
 * {
+    scroll-behavior: smooth;
     padding: 0;
     margin: 0;
 }
+
+body {
+    background: #343a40;
+    font-family: Montserrat, sans-serif;
+}
+
+.navbar-sticky {
+    position: fixed;
+    top: 0;
+    background: #1d2124;
+    opacity: .5;
+    transition: .3s;
+    z-index: 50;
+    width: 100%;
+}
+.navbar-sticky:hover{
+    opacity: 1;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
 
 .myCardDiv {
     display: inline-block;
@@ -305,14 +333,17 @@ body {
 .paddingBottom {
     padding-bottom: 2rem;
 }
-.card-contacts-main-without-height{
+
+.card-contacts-main-without-height {
     display: flex;
 
 }
-.footer-div{
+
+.footer-div {
     text-align: center;
 }
-.footer-text{
+
+.footer-text {
     color: #fff;
     font-size: 14px;
 }
