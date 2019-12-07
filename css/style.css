@@ -8,19 +8,25 @@ body {
     background: #343a40;
     font-family: Montserrat, sans-serif;
 }
-.nav-elements{
+
+.nav-elements {
     display: block;
     text-align: center;
+
 }
-.nav-elements a{
+
+.nav-elements a {
     color: #fff;
     margin: 10px;
     opacity: .5;
+    transition: 0.3s;
 }
+
 .nav-elements a:hover {
     opacity: 1;
     text-decoration: none;
 }
+
 
 .navbar-sticky {
     padding: 10px;
@@ -32,7 +38,8 @@ body {
     z-index: 50;
     width: 100%;
 }
-.navbar-sticky:hover{
+
+.navbar-sticky:hover {
     opacity: 1;
 }
 
@@ -315,8 +322,12 @@ body {
 }
 
 .portfolioItem {
-    transition: .3s;
+    transition: 1.3s;
 
+}
+
+.portfolioItem a {
+    text-align: center;
 }
 
 .portfolioItem:hover {
@@ -330,8 +341,8 @@ body {
 }
 
 .portfolioItem:hover a {
-    text-decoration: underline;
-    text-decoration-color: #fff;
+
+    text-decoration: none;
 }
 
 .portfolioItemText {
