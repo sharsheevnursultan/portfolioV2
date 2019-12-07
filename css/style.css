@@ -8,8 +8,22 @@ body {
     background: #343a40;
     font-family: Montserrat, sans-serif;
 }
+.nav-elements{
+    display: block;
+    text-align: center;
+}
+.nav-elements a{
+    color: #fff;
+    margin: 10px;
+    opacity: .5;
+}
+.nav-elements a:hover {
+    opacity: 1;
+    text-decoration: none;
+}
 
 .navbar-sticky {
+    padding: 10px;
     position: fixed;
     top: 0;
     background: #1d2124;
