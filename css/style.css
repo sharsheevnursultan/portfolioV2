@@ -384,6 +384,6 @@ body {
 }
 .cert{
     width: 600px;
-    height: 400px;
+    /*height: 400px;*/
     margin: auto;
 }
