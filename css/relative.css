@@ -85,7 +85,6 @@
     }
 
 
-
     .portfolioItemText {
         height: 4em;
     }
@@ -209,10 +208,24 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
     /*navmenu*/
+    .navbar-sticky {
+        padding: 0;
+    }
+
+    .mobile-menu {
+        display: flex;
+    }
+
     .nav-elements {
+        position: absolute;
         display: flex;
         flex-flow: column;
         text-align: center;
+        top: -200px;
+    }
+
+    .nav-elements-burger {
+
     }
 
     .card-contacts {
@@ -293,7 +306,6 @@
     .portfolio {
         padding: 5em 0;
     }
-
 
 
     .portfolioItemText {

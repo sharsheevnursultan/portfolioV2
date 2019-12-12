@@ -22,8 +22,42 @@ body {
 ::-webkit-scrollbar-track {
     background: transparent;
 }
+
 /*navmenu*/
 /*header*/
+.menu-burger {
+    top: 30px;
+    position: relative;
+    width: 30px;
+    height: 2px;
+    background: #fff;
+
+}
+
+.menu-burger:before {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 2px;
+    background: #fff;
+    top: -7px;
+
+}
+.menu-burger:after {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 2px;
+    background: #fff;
+    top: 7px;
+
+}
+
+.mobile-menu {
+    display: none;
+    position: absolute;
+    right: 20px;
+}
 
 .nav-elements {
     display: block;
