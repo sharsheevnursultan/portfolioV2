@@ -35,9 +35,6 @@
     }
 
 
-
-
-
     .myName {
         font-size: 40px;
     }
@@ -93,6 +90,16 @@
 
     .portfolioItemText {
         height: 4em;
+    }
+
+    .owl-carousel .owl-item img {
+
+        width: 100%;
+    }
+
+    .cert {
+        width: 100%;
+        height: 280px;
     }
 
     /*
@@ -189,6 +196,16 @@
         height: 4em;
     }
 
+    .owl-carousel .owl-item img {
+
+        width: 100%;
+    }
+
+    .cert {
+        width: 100%;
+        height: 280px;
+    }
+
     /*
       ##Device = Most of the Smartphones Mobiles (Portrait)
       ##Screen = B/w 320px to 479px
@@ -281,6 +298,16 @@
 
     .portfolioItemText {
         height: 4em;
+    }
+
+    .owl-carousel .owl-item img {
+
+        width: 100%;
+    }
+
+    .cert {
+        width: 100%;
+        height: 280px;
     }
 }
 
