@@ -75,13 +75,15 @@ body {
 
 }
 
-.nav-elements a {
+.nav-elements a,
+.menuVisible a {
     color: #fff;
     margin: 10px;
     opacity: .5;
     transition: 0.3s;
 }
 
+.menuVisible a,
 .nav-elements a:hover {
     opacity: 1;
     text-decoration: none;
