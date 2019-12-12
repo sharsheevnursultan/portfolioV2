@@ -67,6 +67,7 @@ body {
     display: none;
     position: absolute;
     right: 20px;
+    transition: 1s;
 }
 
 .nav-elements {
