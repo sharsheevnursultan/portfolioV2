@@ -106,6 +106,26 @@
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
+    /*navmenu*/
+    .navbar-sticky {
+        padding: 0;
+    }
+
+    .mobile-menu {
+        display: flex;
+    }
+
+    .nav-elements {
+        position: absolute;
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+        top: -200px;
+    }
+
+    .nav-elements-burger {
+
+    }
     .card-contacts {
         display: block;
     }
