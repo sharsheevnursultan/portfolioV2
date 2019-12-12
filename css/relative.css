@@ -208,6 +208,13 @@
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+    /*navmenu*/
+    .nav-elements {
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+    }
+
     .card-contacts {
         display: block;
     }

@@ -9,6 +9,22 @@ body {
     font-family: Montserrat, sans-serif;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+/*navmenu*/
+/*header*/
+
 .nav-elements {
     display: block;
     text-align: center;
@@ -41,20 +57,6 @@ body {
 
 .navbar-sticky:hover {
     opacity: 1;
-}
-
-::-webkit-scrollbar {
-    width: 10px;
-
-}
-
-::-webkit-scrollbar-thumb {
-    background: black;
-    border-radius: 20px;
-}
-
-::-webkit-scrollbar-track {
-    background: transparent;
 }
 
 
@@ -339,7 +341,7 @@ body {
     -webkit-box-shadow: 0 6px 23px 6px rgba(0, 0, 0, 0.6);
     -moz-box-shadow: 0 6px 23px 6px rgba(0, 0, 0, 0.6);
     box-shadow: 0 6px 23px 6px rgba(0, 0, 0, 0.6);
-    margin:0 0 10px;
+    margin: 0 0 10px;
 }
 
 .portfolioItem:hover a {
@@ -374,15 +376,18 @@ body {
     color: #fff;
     font-size: 14px;
 }
+
 /*certificate*/
 .owl-carousel .owl-item img {
     display: block;
     width: 600px;
 }
-.cert-div{
-    padding-top: 5em ;
+
+.cert-div {
+    padding-top: 5em;
 }
-.cert{
+
+.cert {
     width: 600px;
     /*height: 400px;*/
     margin: auto;
