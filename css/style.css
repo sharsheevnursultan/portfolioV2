@@ -40,7 +40,7 @@ body {
     width: 30px;
     height: 2px;
     background: #fff;
-
+    z-index: 5;
 }
 
 .menu-burger:before {
