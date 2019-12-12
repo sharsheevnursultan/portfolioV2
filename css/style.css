@@ -25,6 +25,15 @@ body {
 
 /*navmenu*/
 /*header*/
+.menuVisible {
+    transition: .3s;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    top: 0;
+}
+
 .menu-burger {
     top: 30px;
     position: relative;
@@ -43,6 +52,7 @@ body {
     top: -7px;
 
 }
+
 .menu-burger:after {
     position: absolute;
     content: "";

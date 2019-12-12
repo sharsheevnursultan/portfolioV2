@@ -116,8 +116,9 @@
     }
 
     .nav-elements {
-        position: absolute;
-        display: flex;
+        transition: .3s;
+        position: relative;
+        display: none;
         flex-flow: column;
         text-align: center;
         top: -200px;
@@ -237,8 +238,9 @@
     }
 
     .nav-elements {
-        position: absolute;
-        display: flex;
+        transition: .3s;
+        position: relative;
+        display: none;
         flex-flow: column;
         text-align: center;
         top: -200px;
