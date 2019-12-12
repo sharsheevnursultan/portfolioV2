@@ -374,3 +374,16 @@ body {
     color: #fff;
     font-size: 14px;
 }
+/*certificate*/
+.owl-carousel .owl-item img {
+    display: block;
+    width: 600px;
+}
+.cert-div{
+    padding-top: 5em ;
+}
+.cert{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}

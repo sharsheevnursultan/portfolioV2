@@ -8,8 +8,11 @@
     <title>Шаршеев Нурсултан</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/relative.css">
+
 </head>
 <body>
 <header>
@@ -20,6 +23,7 @@
                     <div class="nav-elements">
                         <a class="" href="#main">Главная</a>
                         <a class="" href="#skills">Навыки</a>
+                        <a class="" href="#certificate">Сертификат</a>
                         <a class="" href="#portfolio">Портфолио</a>
                     </div>
                 </div>
@@ -223,6 +227,26 @@
             </div>
         </div>
     </section>
+    <section id="certificate">
+        <div class="container ">
+            <div class="cert-div">
+                <div class="w-100 text-center paddingBottom">
+                    <span class="mySkillsText">Сертификат</span>
+                </div>
+                <div>
+                    <div class="owl-carousel owl-theme ">
+                        <div>
+                            <img class=" cert" src="img/certificate.jpg" alt="Certificate">
+                        </div>
+                        <div>
+                            <img class=" cert" src="img/certificate2.jpg" alt="Certificate">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
     <section id="portfolio">
         <div class="container ">
             <div class="card-contacts-main-without-height">
@@ -255,18 +279,18 @@
                                 </a>
                             </div>
                         </div>
-<!--                        <div class="col-md-6">-->
-<!--                            <div class="portfolioItem">-->
-<!--                                <a target="_blank" href="https://sharsheevnursultan.github.io/hexal/">-->
-<!--                                    <div>-->
-<!--                                        <img class="portfolioImage" src="img/hexal.png" alt="No image">-->
-<!--                                    </div>-->
-<!--                                    <p class="portfolioItemText">-->
-<!--                                        Адаптивный сайт Hexal-->
-<!--                                    </p>-->
-<!--                                </a>-->
-<!--                            </div>-->
-<!--                        </div>-->
+                        <!--                        <div class="col-md-6">-->
+                        <!--                            <div class="portfolioItem">-->
+                        <!--                                <a target="_blank" href="https://sharsheevnursultan.github.io/hexal/">-->
+                        <!--                                    <div>-->
+                        <!--                                        <img class="portfolioImage" src="img/hexal.png" alt="No image">-->
+                        <!--                                    </div>-->
+                        <!--                                    <p class="portfolioItemText">-->
+                        <!--                                        Адаптивный сайт Hexal-->
+                        <!--                                    </p>-->
+                        <!--                                </a>-->
+                        <!--                            </div>-->
+                        <!--                        </div>-->
                         <div class="col-md-6">
                             <div class="portfolioItem">
                                 <a target="_blank" href="https://sharsheevnursultan.github.io/jscalculatorV2/">
@@ -364,6 +388,29 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script>
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        dots: false,
+        autoplay:true,
+        autoplayTimeout: 5000,
+        autoplaySpeed: 1000,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
+    })</script>
 <script src="js/script.js"></script>
 </body>
 </html>
