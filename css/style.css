@@ -41,6 +41,7 @@ body {
     height: 2px;
     background: #fff;
     z-index: 5;
+    margin: 5px;
 }
 
 .menu-burger:before {
@@ -50,7 +51,7 @@ body {
     height: 2px;
     background: #fff;
     top: -7px;
-
+    margin: 5px;
 }
 
 .menu-burger:after {
@@ -60,7 +61,7 @@ body {
     height: 2px;
     background: #fff;
     top: 7px;
-
+    margin: 5px;
 }
 
 .mobile-menu {
