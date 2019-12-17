@@ -25,6 +25,11 @@ body {
 
 /*navmenu*/
 /*header*/
+.burger-bg{
+    background: #000000;
+    opacity: .5;
+    border-radius: 5px;
+}
 .menuVisible {
     transition: .3s;
     position: relative;
@@ -39,6 +44,7 @@ body {
     top: 15px;
     left: 5px;
     position: relative;
+
     width: 30px;
     height: 2px;
     background: #fff;
@@ -87,13 +93,14 @@ body {
 .nav-elements a,
 .menuVisible a {
     color: #fff;
-    margin: 10px;
+    margin: 10px auto;
     opacity: .5;
     transition: 0.3s;
 }
 
 .menuVisible a,
 .nav-elements a:hover {
+    width: max-content;
     opacity: 1;
     text-decoration: none;
 }
