@@ -37,7 +37,7 @@ body {
 
 .menu-burger {
     top: 15px;
-    left: 1px;
+    left: 5px;
     position: relative;
     width: 30px;
     height: 2px;
@@ -47,6 +47,7 @@ body {
 
 
 .menu-burger:before {
+
     position: absolute;
     content: "";
     width: 30px;
@@ -66,7 +67,7 @@ body {
 
 .mobile-menu {
     border-radius: 5px;
-    width: 32px;
+    width: 40px;
     background: black;
     display: none;
     position: absolute;
