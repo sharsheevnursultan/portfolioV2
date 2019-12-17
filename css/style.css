@@ -34,15 +34,17 @@ body {
     top: 0;
 }
 
+
 .menu-burger {
-    top: 30px;
+    top: 15px;
+    left: 1px;
     position: relative;
     width: 30px;
     height: 2px;
     background: #fff;
     z-index: 5;
-    margin: 5px;
 }
+
 
 .menu-burger:before {
     position: absolute;
@@ -51,7 +53,6 @@ body {
     height: 2px;
     background: #fff;
     top: -7px;
-    margin: 5px;
 }
 
 .menu-burger:after {
@@ -61,14 +62,18 @@ body {
     height: 2px;
     background: #fff;
     top: 7px;
-    margin: 5px;
 }
 
 .mobile-menu {
+    border-radius: 5px;
+    width: 32px;
+    background: black;
     display: none;
     position: absolute;
+    top: 30px;
     right: 20px;
     transition: 1s;
+    height: 32px;
 }
 
 .nav-elements {
