@@ -400,9 +400,7 @@ body {
 }
 
 .portfolioItem:hover .portfolioImage {
-    -webkit-box-shadow: 0 6px 23px 6px rgba(0, 0, 0, 0.6);
-    -moz-box-shadow: 0 6px 23px 6px rgba(0, 0, 0, 0.6);
-    box-shadow: 0 6px 23px 6px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 6px 23px 6px rgba(156, 238, 153, 0.6);
     margin: 0 0 10px;
 }
 
