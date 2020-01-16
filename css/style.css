@@ -247,6 +247,8 @@ body {
 
 
 .myAva {
+    padding: 10px;
+    border: 1px solid #2a3331;
     width: 300px;
     height: 350px;
     -webkit-box-shadow: 0 0 11px 6px rgba(0, 0, 0, 0.26);
