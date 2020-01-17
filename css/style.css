@@ -312,7 +312,7 @@ body {
     font-size: 70px;
     font-family: "Montserrat ExtraBold", sans-serif;
     transform: rotate(-90deg);
-    color: rgba(0, 0, 0, .2);
+    color: rgba(255, 255, 255, 0.29);
 }
 
 .mySkillsText {
