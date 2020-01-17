@@ -11,7 +11,13 @@ function burgerScript() {
     console.log('click')
 }
 
-document.getElementById('sort_button').onclick = function() {
+document.getElementById('sort_button').onclick = function () {
     document.getElementById('portfolio_sort').classList.toggle('flex-wrap-reverse');
+    x=document.getElementById('sort_name');
+    if (x.innerHTML==='от старых к новым'){
+        x.innerHTML='от новых к старым'
+    }else  if (x.innerHTML==='от новых к старым'){
+        x.innerHTML='от старых к новым'
+    }
 };
 
