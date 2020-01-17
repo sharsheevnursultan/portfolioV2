@@ -11,4 +11,7 @@ function burgerScript() {
     console.log('click')
 }
 
+document.getElementById('sort_button').onclick = function() {
+    document.getElementById('portfolio_sort').classList.toggle('flex-wrap-reverse');
+};
 
