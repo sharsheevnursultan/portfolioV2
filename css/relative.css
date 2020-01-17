@@ -53,8 +53,7 @@
         margin-top: 5em;
         text-align: center;
         position: unset;
-        padding: 0;
-        border: 0;
+        padding: 10px;
         box-shadow: none;
     }
 
@@ -175,8 +174,8 @@
         margin-top: 5em;
         text-align: center;
         position: unset;
-        padding: 0;
-        border: 0;
+        padding: 10px;
+
         box-shadow: none;
     }
 
@@ -298,8 +297,8 @@
         margin-top: 5em;
         text-align: center;
         position: unset;
-        padding: 0;
-        border: 0;
+        padding: 10px;
+
         box-shadow: none;
     }
 
