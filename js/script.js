@@ -7,11 +7,10 @@ function burgerScript() {
         i.classList.remove('menuVisible');
         i.classList.add('nav-elements')
     }
-
-    console.log('click')
 }
 
-document.getElementById('sort_button').onclick = function () {
+
+document.getElementById('sort_button').onclick = function (x) {
     document.getElementById('portfolio_sort').classList.toggle('flex-wrap-reverse');
     x=document.getElementById('sort_name');
     if (x.innerHTML==='от старых к новым'){
