@@ -370,7 +370,7 @@ body {
 }
 
 .contacts {
-    display: block;
+    display: flex;
     align-items: center;
     align-content: center;
     transition: .3s;
@@ -382,7 +382,7 @@ body {
 }
 
 .contacts h6 {
-    display: none;
+
 
 }
 
@@ -400,35 +400,32 @@ body {
     fill: grey;
 }
 
-.facebook:hover {
+.contacts:hover .facebook{
     fill: #4267B2;
 
 }
 
-.whatsapp:hover {
+.contacts:hover .whatsapp{
     fill: #25D366;
 }
 
-/*.link-instagram:hover{*/
-/*    background: #e4405f;*/
-/*}*/
-.instagram:hover {
+.contacts:hover .instagram{
     fill: #e4405f;
 }
 
-.telegram:hover {
+.contacts:hover .telegram {
     fill: #5682A3;
 }
 
-.email:hover {
+.contacts:hover .email {
     fill: #005B8D;
 }
 
-.phone:hover {
+.contacts:hover .phone {
     fill: #148C14;
 }
 
-.github:hover {
+.contacts:hover .github {
     fill: black;
 }
 
