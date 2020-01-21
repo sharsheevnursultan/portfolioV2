@@ -149,7 +149,6 @@ body {
 }
 
 
-
 .resumeLink {
     font-family: "Montserrat", sans-serif;
     font-size: 12px;
@@ -364,17 +363,29 @@ body {
 }
 
 
-
 .socialMedia {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
 }
 
-.contacts:hover svg {
+.contacts {
+    display: block;
+    align-items: center;
+    align-content: center;
+    transition: .3s;
+}
 
+.contacts div {
+    padding: 10px;
 
 }
+
+.contacts h6 {
+    display: none;
+
+}
+
 
 .facebook,
 .instagram,
@@ -386,7 +397,7 @@ body {
     width: 50px;
     height: 50px;
     transition: .3s;
-    fill: black;
+    fill: grey;
 }
 
 .facebook:hover {
@@ -397,6 +408,7 @@ body {
 .whatsapp:hover {
     fill: #25D366;
 }
+
 /*.link-instagram:hover{*/
 /*    background: #e4405f;*/
 /*}*/
@@ -416,20 +428,9 @@ body {
     fill: #148C14;
 }
 
-
-.contacts {
-    display: block;
-    align-items: center;
-    align-content: center;
-    transition: .3s;
+.github:hover {
+    fill: black;
 }
 
-.contacts div {
-    padding-left: 10px;
 
-}
 
-.contacts h6 {
-    margin: 0 0 0 10px;
-    display: none;
-}
