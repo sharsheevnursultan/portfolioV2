@@ -148,88 +148,6 @@ body {
     font-size: 20px;
 }
 
-.socialMedia {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -9px;
-}
-
-.contacts:hover svg {
-    fill: white;
-    background: rgba(0, 0, 0, 0.3);
-    border-radius: 5px;
-    padding: 2px;
-}
-
-.facebook,
-.instagram,
-.telegram,
-.whatsapp,
-.email,
-.phone,
-.github {
-    transition: .3s;
-
-}
-
-.facebook {
-    fill: #4267B2;
-
-}
-
-.whatsapp {
-    fill: #25D366;
-}
-
-.instagram {
-    fill: #e4405f;
-}
-
-.telegram {
-    fill: #5682A3;
-}
-
-.email {
-    fill: #005B8D;
-}
-
-.phone {
-    fill: #148C14;
-}
-
-.html5 {
-    fill: #E44D26;
-}
-
-.css3 {
-    fill: #1B73BA;
-}
-
-.svg {
-    fill: #fff;
-}
-
-.contacts {
-    font-family: 'Montserrat', sans-serif;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    margin: 0 0 12px 0;
-    padding: 0 0 10px 0;
-    transition: .3s;
-    position: relative;
-}
-
-.contacts div {
-    padding-left: 10px;
-
-}
-
-.contacts h6, .skills h6 {
-    margin: 0 0 0 10px;
-    display: none;
-}
 
 
 .resumeLink {
@@ -444,4 +362,73 @@ body {
     width: 600px;
     /*height: 400px;*/
     margin: auto;
+}
+
+
+
+.socialMedia {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.contacts:hover svg {
+
+
+}
+
+.facebook,
+.instagram,
+.telegram,
+.whatsapp,
+.email,
+.phone,
+.github {
+    transition: .3s;
+    fill: black;
+}
+
+.facebook:hover {
+    fill: #4267B2;
+
+}
+
+.whatsapp:hover {
+    fill: #25D366;
+}
+/*.link-instagram:hover{*/
+/*    background: #e4405f;*/
+/*}*/
+.instagram:hover {
+    fill: #e4405f;
+}
+
+.telegram:hover {
+    fill: #5682A3;
+}
+
+.email:hover {
+    fill: #005B8D;
+}
+
+.phone:hover {
+    fill: #148C14;
+}
+
+
+.contacts {
+    display: block;
+    align-items: center;
+    align-content: center;
+    transition: .3s;
+}
+
+.contacts div {
+    padding-left: 10px;
+
+}
+
+.contacts h6 {
+    margin: 0 0 0 10px;
+    display: none;
 }
