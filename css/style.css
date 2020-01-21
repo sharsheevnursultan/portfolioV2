@@ -296,7 +296,7 @@ body {
 }
 
 .skillsCard {
-    background-size: cover;
+
     position: relative;
     width: 100%;
     border-radius: 5px;
@@ -307,13 +307,15 @@ body {
     content: "MY SKILLS";
     left: -300px;
     top: 200px;
+    opacity: .5;
     font-size: 70px;
     font-family: "Montserrat ExtraBold", sans-serif;
     transform: rotate(-90deg);
-    color: rgba(255, 255, 255, 0.29);
+    color: grey;
 }
 
 .mySkillsText {
+    font-weight: 700;
     font-family: 'Montserrat', sans-serif;
 
 }
@@ -404,9 +406,12 @@ body {
 }
 
 .portfolioItemText {
+    font-weight: 500;
     margin: 5px;
     min-height: 3em;
     color: black;
+    font-style: oblique;
+    text-align: center;
 }
 
 .paddingBottom {
