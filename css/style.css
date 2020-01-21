@@ -371,8 +371,7 @@ body {
 
 .contacts {
     display: flex;
-    align-items: center;
-    align-content: center;
+    align-items: baseline;
     transition: .3s;
 }
 
@@ -394,22 +393,22 @@ body {
 .email,
 .phone,
 .github {
-    width: 50px;
-    height: 50px;
+    width: 32px;
+    height: 32px;
     transition: .3s;
     fill: grey;
 }
 
-.contacts:hover .facebook{
+.contacts:hover .facebook {
     fill: #4267B2;
 
 }
 
-.contacts:hover .whatsapp{
+.contacts:hover .whatsapp {
     fill: #25D366;
 }
 
-.contacts:hover .instagram{
+.contacts:hover .instagram {
     fill: #e4405f;
 }
 
