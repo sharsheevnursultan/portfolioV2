@@ -156,6 +156,7 @@ body {
 }
 
 .myAva {
+    margin: auto;
     padding: 10px;
     border: 1px solid #ffffff;
     width: 300px;
@@ -167,7 +168,7 @@ body {
 }
 
 .section-padding {
-    padding: 2em 0;
+    padding: 100px 0;
 }
 
 .card-contacts {
