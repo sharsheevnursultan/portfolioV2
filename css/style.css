@@ -126,7 +126,6 @@ body {
     display: flex;
     background: linear-gradient(to right, #0a51fe 0%, #ff342e 100%);
     /*background: black;*/
-    font-family: 'Montserrat ExtraBold', sans-serif;
     text-align: left;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -135,24 +134,16 @@ body {
 
 .myName {
     line-height: 1;
-    margin-left: -2px;
     font-size: 50px;
+    font-weight: 900;
 }
 
-.mySpecialisation {
-    margin-top: 15px;
-    font-size: 20px;
-}
+
 
 
 .resumeLink {
-    font-family: "Montserrat", sans-serif;
-    font-size: 12px;
-    margin-top: 15px;
-}
-
-.resumeLink a {
-    color: black;
+    font-size: 16px;
+    font-weight: 200;
 }
 
 .myAva {
