@@ -1,6 +1,12 @@
-body{
-    font-family: 'Didact Gothic', sans-serif;
+* {
+    scroll-behavior: smooth;
 }
-.section-padding{
+
+body {
+    font-family: 'Didact Gothic', sans-serif;
+
+}
+
+.section-padding {
     padding: 2em 0;
 }
