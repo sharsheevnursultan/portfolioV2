@@ -13,3 +13,10 @@ body {
 .padding-10{
     padding: 10px 15px;
 }
+.shadow-stock{
+    transition: .3s;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)
+}
+.shadow-stock:hover{
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075)
+}
