@@ -21,3 +21,9 @@ body {
 .shadow-stock:hover{
     box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075)
 }
+
+.gradient-text{
+    background: linear-gradient(90deg,rgba(54,102,212,1) 0%, rgba(24,141,152,1) 50%, rgba(89,69,156,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
