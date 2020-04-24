@@ -42,3 +42,11 @@ body {
     border-radius: 50px;
     background-color: #7ff0ac;
 }
+.nav-item{
+    transition: .3s;
+    border-top: 2px solid transparent;
+    border-bottom:2px solid transparent;
+}
+.nav-item:hover{
+    border-bottom: 2px solid #00a2e8;
+}
