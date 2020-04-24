@@ -32,3 +32,8 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.portfolio-images img{
+    border-radius: 50px;
+    background-color: #7ff0ac;
+}
