@@ -25,11 +25,13 @@ body {
 
 .shadow-stock {
     transition: .3s;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+
 }
 
 .shadow-stock:hover {
-    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075)
+    box-shadow: 0 0 1rem rgb(0, 0, 0);
+
 }
 
 .gradient-text {
@@ -51,4 +53,18 @@ body {
 
 .nav-item:hover {
     border-bottom: 2px solid #00a2e8;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #00A2E8;
+    border-radius: 3px;
+
 }
