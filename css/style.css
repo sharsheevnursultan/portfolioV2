@@ -16,6 +16,10 @@ body {
     background-color: #7FB67A;
 }
 
+.header-text-padding {
+    padding-top: 80px;
+}
+
 .padding-10 {
     padding: 10px 15px;
 }
@@ -63,5 +67,52 @@ body {
 ::-webkit-scrollbar-thumb {
     background-color: #00A2E8;
     border-radius: 3px;
+
+}
+
+.contacts-mail a,
+.contacts-phone a,
+.contacts-whatsapp a,
+.contacts-instagram a,
+.contacts-telegram a,
+.contacts-github a {
+    transition: .2s ease;
+    position: relative;
+}
+
+.contacts-mail a:hover,
+.contacts-phone a:hover,
+.contacts-whatsapp a:hover,
+.contacts-instagram a:hover,
+.contacts-telegram a:hover,
+.contacts-github a:hover {
+    color: #fff;
+}
+
+.contacts-mail a:before,
+.contacts-phone a:before,
+.contacts-whatsapp a:before,
+.contacts-instagram a:before,
+.contacts-telegram a:before,
+.contacts-github a:before {
+    z-index: -2;
+    transition: height .3s;
+    position: absolute;
+    content: '';
+    bottom: -3px;
+    left: -10px;
+    width: 120%;
+    height: 0;
+    background: #00A2E8;
+    border-radius: 3px;
+}
+
+.contacts-mail a:hover:before,
+.contacts-phone a:hover:before,
+.contacts-whatsapp a:hover:before,
+.contacts-instagram a:hover:before,
+.contacts-telegram a:hover:before,
+.contacts-github a:hover:before {
+    height: 24px;
 
 }
