@@ -15,6 +15,29 @@
     <link rel="stylesheet" href="css/relative.css">
 </head>
 <body>
+<div id="preloader">
+    <div id="preloader_preload"></div>
+</div>
+<script type="text/javascript">
+    var preloader = document.getElementById("preloader_preload");
+
+    function fadeOutnojquery(el) {
+        el.style.opacity = 1;
+        var interpreloader = setInterval(function () {
+            el.style.opacity = el.style.opacity - 0.05;
+            if (el.style.opacity <= 0.05) {
+                clearInterval(interpreloader);
+                preloader.style.display = "none";
+            }
+        }, 16);
+    }
+
+    window.onload = function () {
+        setTimeout(function () {
+            fadeOutnojquery(preloader);
+        }, 100);
+    };
+</script>
 <header class="pb-2">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container ">
@@ -177,20 +200,12 @@
                                                                    class="text-decoration-none"
                                                                    title="Перейти на сайт itrun.kg ">IT-RUN</a>"</p>
             <div class="row">
-                <div data-tilt=""
-                     data-tilt-max="10"
-                     data-tilt-reverse="true"
-                     data-tilt-perspective="500"
-                     class="pb-4 col-md-6">
+                <div class="pb-4 col-md-6">
                     <img class="wow swing shadow portfolio-images"
                          src="img/certificate.jpg"
                          alt="">
                 </div>
-                <div data-tilt=""
-                     data-tilt-max="10"
-                     data-tilt-reverse="true"
-                     data-tilt-perspective="500"
-                     class="pb-4 col-md-6">
+                <div class="pb-4 col-md-6">
                     <img class="wow swing shadow portfolio-images"
                          src="img/certificate2.jpg"
                          alt="">

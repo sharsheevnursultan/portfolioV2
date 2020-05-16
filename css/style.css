@@ -37,6 +37,8 @@ body {
 }
 
 .portfolio-images {
+    box-shadow:  20px 20px 60px #d9d9d9,
+    -20px -20px 60px #ffffff;
     border-radius: 50px;
     background-color: #7ff0ac;
     width: 100%;
@@ -119,3 +121,15 @@ body {
 }
 
 
+#preloader_preload {
+    text-align: center;
+    display: block;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF url('../img/loader.svg') center center no-repeat;
+    background-size: 160px;
+}
